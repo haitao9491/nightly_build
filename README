@@ -1,0 +1,8 @@
+
+build用户下增加crontab
+30 0 * * * /home/build/nightly_build/build.sh
+
+切换root用户: sudo -s
+root用户下增加crontab
+30 3 * * * /home/build/nightly_build/rbuild.sh
+
